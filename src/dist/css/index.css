@@ -81,4 +81,13 @@ body, html {
       flex-wrap: wrap;
   gap: 1rem;
 }
+
+.about__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
 /*# sourceMappingURL=index.css.map */

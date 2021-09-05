@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 
-import {ReactComponent as Logo}　from '../dist/img/logo/logo.svg'
+import { ReactComponent as Logo } from "../dist/img/logo/logo.svg";
 
 function Header() {
   const [burger, setBurger] = useState(false);
@@ -22,9 +22,7 @@ function Header() {
       <nav className="navbar">
         <div className="navbar-brand">
           <Link className="pt-3 ml-5 " to="/">
-           
-              <Logo name="logo" width={48} height={48}/>
-         
+            <Logo name="logo" width={48} height={48} />
           </Link>
           <a
             href="/"
@@ -45,29 +43,33 @@ function Header() {
           className={burger ? "navbar-menu is-active" : "navbar-menu mr-6"}
         >
           <div className="navbar-end">
-            <a
+            <Link
+              to="/about"
               className={
                 burger ? "navbar-item has-text-centered" : "navbar-item"
               }
             >
               Giới thiệu
-            </a>
+            </Link>
 
-            <a
+            <Link
+              to="/contact"
               className={
                 burger ? "navbar-item has-text-centered" : "navbar-item"
               }
             >
               Liên hệ
-            </a>
+            </Link>
 
             <div
               className={
-                showDropdown ? "navbar-item has-dropdown is-hoverable" : ""
+                showDropdown
+                  ? "navbar-item has-dropdown is-hoverable"
+                  : "navbar-item has-dropdown"
               }
             >
               <a
-                className="navbar-link has-text-centered mt-3 pl-2"
+                className="navbar-link has-text-centered"
                 onClick={(event) => handleDropdownClick(event)}
               >
                 Sản phẩm
