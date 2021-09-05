@@ -4,7 +4,7 @@ function Card() {
   return (
     <div
       className="container product flex   flex-ai-c"
-      
+      style={{maxWidth: "327px"}}
     >
       <figure
        

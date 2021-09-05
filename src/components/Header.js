@@ -20,7 +20,7 @@ function Header() {
     <Fragment>
       <nav className="navbar" >
         <div className="navbar-brand">
-          <Link className="pt-2 pl-2" to="/">Trang chủ</Link>
+          <Link className="pt-3 ml-5 " to="/">Trang chủ</Link>
           <a href='/'
             className="navbar-burger"  id="burger"  onClick = {(event)=>{handleBurgerClick(event)}} 
           >
@@ -37,7 +37,7 @@ function Header() {
             <a className={burger?'navbar-item has-text-centered':'navbar-item'}>Liên hệ</a>
 
             <div className={showDropdown?"navbar-item has-dropdown is-hoverable":""}>
-              <a className="navbar-link has-text-centered pt-4 pl-2" onClick={(event)=>handleDropdownClick(event)}>Sản phẩm</a>
+              <a className="navbar-link has-text-centered pt-2 pl-2" onClick={(event)=>handleDropdownClick(event)}>Sản phẩm</a>
 
               <div className="navbar-dropdown">
                 <a className={burger?'navbar-item has-text-centered':'navbar-item'}>Tai nghe</a>
