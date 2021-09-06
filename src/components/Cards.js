@@ -54,7 +54,7 @@ function Cards() {
     // 
     {
         title: "Phụ kiện game",
-        id: "1",
+        id: "3",
         products: [
           {
             id: "game-1",

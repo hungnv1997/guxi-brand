@@ -76,35 +76,35 @@ function Header() {
               </a>
 
               <div className="navbar-dropdown">
-                <a
+                <Link to="/products/2"
                   className={
                     burger ? "navbar-item has-text-centered" : "navbar-item"
                   }
                 >
                   Tai nghe
-                </a>
-                <a
+                </Link>
+                <Link to="/products/1"
                   className={
                     burger ? "navbar-item has-text-centered" : "navbar-item"
                   }
                 >
                   Bộ sạc
-                </a>
-                <a
+                </Link>
+                <Link to="/products/3"
                   className={
                     burger ? "navbar-item has-text-centered" : "navbar-item"
                   }
                 >
                   Phụ kiện Game
-                </a>
+                </Link>
 
-                <a
+                <Link to="/"
                   className={
                     burger ? "navbar-item has-text-centered" : "navbar-item"
                   }
                 >
                   Khác
-                </a>
+                </Link>
               </div>
             </div>
           </div>

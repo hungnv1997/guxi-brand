@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import List from "./components/List";
 function App() {
   return (
     <div className="App">
@@ -24,9 +25,10 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="/about" name="register" component={About}></Route>
-            <Route path="/contact" name="register" component={Contact}></Route>    
-            <Route path="/topics" name="register" component={Topics}></Route>
+            <Route path="/about" component={About}></Route>
+            <Route path="/contact" component={Contact}></Route>    
+            <Route path="/topics" component={Topics}></Route>
+            <Route path="/products/:id" component={List}></Route>
             <Route path="*" component={Nomatch}></Route>
           </Switch>
 
