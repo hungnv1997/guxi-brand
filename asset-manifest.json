@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/guxi-brand/static/css/main.8830220d.chunk.css",
+    "main.js": "/guxi-brand/static/js/main.efb5d16b.chunk.js",
+    "main.js.map": "/guxi-brand/static/js/main.efb5d16b.chunk.js.map",
+    "runtime-main.js": "/guxi-brand/static/js/runtime-main.964dfdd4.js",
+    "runtime-main.js.map": "/guxi-brand/static/js/runtime-main.964dfdd4.js.map",
+    "static/js/2.50abf652.chunk.js": "/guxi-brand/static/js/2.50abf652.chunk.js",
+    "static/js/2.50abf652.chunk.js.map": "/guxi-brand/static/js/2.50abf652.chunk.js.map",
+    "index.html": "/guxi-brand/index.html",
+    "static/css/main.8830220d.chunk.css.map": "/guxi-brand/static/css/main.8830220d.chunk.css.map",
+    "static/js/2.50abf652.chunk.js.LICENSE.txt": "/guxi-brand/static/js/2.50abf652.chunk.js.LICENSE.txt",
+    "static/media/logo.4829a0c2.svg": "/guxi-brand/static/media/logo.4829a0c2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.964dfdd4.js",
+    "static/js/2.50abf652.chunk.js",
+    "static/css/main.8830220d.chunk.css",
+    "static/js/main.efb5d16b.chunk.js"
+  ]
+}
